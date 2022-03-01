@@ -9,18 +9,26 @@ namespace OOP_Clovek
         public string Jmeno { get; set; }
         public string Prijmeni { get; set; }
         public DateTime DatumNarozeni { get; set; }
-        public int Energie { get; set; }
+        private int energie;
+        public int Energie { get=>energie; }
         public int Zivot { get; set; }
-        public int Dovednost { get; set; }
+        private int dovednost;
+        public int Dovednost { get =>dovednost; }
 
         public Clovek()
         {
             Jmeno = "";
             Prijmeni = "";
             DatumNarozeni = DateTime.Now;
-            Energie = 100;
+            energie = 100;
             Zivot = 100;
-            Dovednost = 0;
+            dovednost = 0;
+        }
+
+        public void Zvysitdovednost()
+        {
+            dovednost += 20;
+            energie += 10;
         }
 
     }

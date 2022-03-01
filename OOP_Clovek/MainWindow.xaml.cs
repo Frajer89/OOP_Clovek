@@ -23,6 +23,10 @@ namespace OOP_Clovek
         public MainWindow()
         {
             InitializeComponent();
+            Clovek karel = new Clovek();
+            karel.Jmeno = "Karel";
+            Clovek jan = new Clovek();
+            jan.Jmeno = "Jan";
         }
 
     }
