@@ -20,14 +20,53 @@ namespace OOP_Clovek
     /// </summary>
     public partial class MainWindow : Window
     {
+        Clovek karel;
+        Clovek jan;
         public MainWindow()
         {
             InitializeComponent();
-            Clovek karel = new Clovek();
+            karel = new Clovek();
             karel.Jmeno = "Karel";
-            Clovek jan = new Clovek();
+            karel.Prijmeni = "Cvrcek";
+            karel.DatumNarozeni = new DateTime(2006, 5, 24);
+            Zobraz(karel, txtBox1);
+            
+            jan = new Clovek();
             jan.Jmeno = "Jan";
+            jan.Prijmeni = "28";
+            Zobraz(jan, txtBox2);
         }
 
+        public void Zobraz(Clovek clovek, TextBox textBox)
+        {
+            textBox.Text = clovek.Jmeno + " " + clovek.Prijmeni + "\n";
+            textBox.Text += clovek.DatumNarozeni.ToString() + "\n";
+            textBox.Text += "Život" + clovek.Zivot.ToString() + "\n";
+            textBox.Text += "Energie" + clovek.Energie.ToString() + "\n";
+            textBox.Text += "Dovednost" + clovek.Dovednost.ToString() + "\n";
+
+        }
+
+        private void PosuňČas_Click(object sender, RoutedEventArgs e)
+        {
+            karel.Zestarnout();
+            jan.Zestarnout();
+            Zobraz(karel, txtBox1);
+            Zobraz(jan, txtBox2);
+
+
+
+
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            karel.Zvysitdovednosti();
+            jan.Zvysitdovednosti();
+            Zobraz(karel, txtBox1);
+            Zobraz(jan, txtBox2);
+
+        }
     }
 }
