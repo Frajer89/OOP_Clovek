@@ -10,7 +10,12 @@
         <TextBox Name="txtBox1" HorizontalAlignment="Left" Margin="10,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="238" Height="358"/>
         <TextBox Name="txtBox2" HorizontalAlignment="Left" Margin="476,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="281" Height="358"/>
         <Button Content="Posuň čas" HorizontalAlignment="Left" Margin="316,38,0,0" VerticalAlignment="Top" Height="44" Width="84" Click="PosuňČas_Click"/>
-        <Button Content="Zvýšit dovednost" HorizontalAlignment="Left" Margin="306,87,0,0" VerticalAlignment="Top" Height="42" Width="104" Click="Button_Click"/>
+        <Button Content="Zvýšit dovednosti" HorizontalAlignment="Left" Margin="253,96,0,0" VerticalAlignment="Top" Height="31" Width="105" Click="Button_Click"/>
+        <Button Content="Zvýšit dovednosti" HorizontalAlignment="Left" Margin="363,96,0,0" VerticalAlignment="Top" Height="31" Width="105" Click="Button_Click_1"/>
+        <Button Content="Útok" HorizontalAlignment="Left" Margin="253,132,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_2"/>
+        <Button Content="Útok" HorizontalAlignment="Left" Margin="390,132,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_3"/>
+        <Button Content="SuperÚtok" HorizontalAlignment="Left" Margin="253,163,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_4"/>
+        <Button Content="SuperÚtok" HorizontalAlignment="Left" Margin="390,163,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_5"/>
 
     </Grid>
 </Window>

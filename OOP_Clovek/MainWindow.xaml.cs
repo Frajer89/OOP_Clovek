@@ -53,20 +53,42 @@ namespace OOP_Clovek
             jan.Zestarnout();
             Zobraz(karel, txtBox1);
             Zobraz(jan, txtBox2);
-
-
-
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             karel.Zvysitdovednosti();
-            jan.Zvysitdovednosti();
             Zobraz(karel, txtBox1);
-            Zobraz(jan, txtBox2);
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            jan.Zvysitdovednosti();
+            Zobraz(jan, txtBox2);
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            jan.Utok();
+            Zobraz(jan, txtBox2);
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            karel.Utok();
+            Zobraz(karel, txtBox1);
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            jan.SuperUtok();
+            Zobraz(jan, txtBox2);
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            karel.SuperUtok();
+            Zobraz(karel, txtBox1);
         }
     }
 }
