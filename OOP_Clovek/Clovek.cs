@@ -53,7 +53,7 @@ namespace OOP_Clovek
                 Zivot = 0;
             }
 
-            
+
 
         }
 
@@ -102,34 +102,65 @@ namespace OOP_Clovek
             }
 
         }
+
+        public void Heal()
+        {
+            Zivot += 10;
+            if (Zivot > 200)
+            {
+                Zivot = 200;
+            }
+        }
+
+        public void SuperHeal()
+        {
+            Zivot += 20;
+            if (Zivot > 200)
+            {
+                Zivot = 200;
+            }
+        }
+
+        public void DruhejŽivot()
+        {
+            Zivot += 100;
+            if (Zivot > 100)
+            {
+                Zivot = 100;
+            }
+            
+            
+
+          
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

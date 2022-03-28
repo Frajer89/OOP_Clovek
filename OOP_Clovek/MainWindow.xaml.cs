@@ -90,5 +90,42 @@ namespace OOP_Clovek
             karel.SuperUtok();
             Zobraz(karel, txtBox1);
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            karel.Heal();
+            Zobraz(karel, txtBox1);
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            jan.Heal();
+            Zobraz(jan, txtBox2);
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            karel.SuperHeal();
+            Zobraz(karel, txtBox1);
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            jan.SuperHeal();
+            Zobraz(jan, txtBox2);
+           
+        }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            karel.DruhejŽivot();
+            Zobraz(karel, txtBox1);
+        }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            jan.DruhejŽivot();
+            Zobraz(jan, txtBox2);
+        }
     }
 }

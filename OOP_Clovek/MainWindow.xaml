@@ -16,6 +16,12 @@
         <Button Content="Útok" HorizontalAlignment="Left" Margin="390,132,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_3"/>
         <Button Content="SuperÚtok" HorizontalAlignment="Left" Margin="253,163,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_4"/>
         <Button Content="SuperÚtok" HorizontalAlignment="Left" Margin="390,163,0,0" VerticalAlignment="Top" Height="26" Width="78" Click="Button_Click_5"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="253,194,0,0" VerticalAlignment="Top" Height="30" Width="65" Click="Button_Click_6"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="403,194,0,0" VerticalAlignment="Top" Height="30" Width="65" Click="Button_Click_7"/>
+        <Button Content="SuperHeal" HorizontalAlignment="Left" Margin="253,229,0,0" VerticalAlignment="Top" Height="31" Width="72" Click="Button_Click_8"/>
+        <Button Content="SuperHeal" HorizontalAlignment="Left" Margin="396,229,0,0" VerticalAlignment="Top" Height="31" Width="72" Click="Button_Click_9"/>
+        <Button Content="DruhejŽivot" HorizontalAlignment="Left" Margin="253,265,0,0" VerticalAlignment="Top" Height="26" Width="72" Click="Button_Click_10"/>
+        <Button Content="DruhejŽivot" HorizontalAlignment="Left" Margin="396,265,0,0" VerticalAlignment="Top" Height="26" Width="72" Click="Button_Click_11"/>
 
     </Grid>
 </Window>
