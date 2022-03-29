@@ -47,7 +47,7 @@ namespace OOP_Clovek
 
         }
 
-        private void PosuňČas_Click(object sender, RoutedEventArgs e)
+        private void PosunCas_Click(object sender, RoutedEventArgs e)
         {
             karel.Zestarnout();
             jan.Zestarnout();
